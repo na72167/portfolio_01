@@ -1,0 +1,454 @@
+// レイアウト関係に使う変数など 80px
+
+$font-color_default: #777;
+$font-color_date: #e37b89;
+$color_main: #e3a8b1;
+$font-color_sub1: #b6a489;
+$bgColor-lightGray: #f8f7fc;
+
+$site-width: 980px;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+
+$font-family_corp: 'Amatic SC',
+cursive;
+//変数関係終わり
+
+$breakpoints: ('sm': 'screen and (max-width: 414px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)',
+  'xl': 'screen and (max-width: 1200px)',
+) !default;
+
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+//ヘッダー関係
+
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  margin-top: -120px;
+  color: $font-color_default;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: $space_xl;
+  padding-right: $space_xl;
+  position: fixed;
+  transition: .3s;
+  z-index: 2;
+
+  &.float-active {
+    transition: .3s;
+    background: black;
+  }
+
+  @include mq() {
+    height: 60px;
+    padding-right: $space_l;
+    padding-left: $space_l;
+  }
+
+  .title {
+    font-size: $font-size_xxl;
+    font-weight: bold;
+  }
+}
+
+// menu
+
+@include mq() {
+  .nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: rgba(255, 255, 255, .85);
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    transition: .5s;
+
+    &.active {
+      transition: .5s;
+      transform: translateX(-100%);
+      z-index: 2;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: $font-size_xl;
+
+  &-item {
+    margin-right: $space_xl;
+  }
+
+  &-link {
+    -webkit-font-smoothing: initial;
+  }
+
+  &-item {
+    margin-right: initial;
+  }
+
+  &-link {
+    -webkit-font-smoothing: initial;
+    display: block;
+    padding: $space_l;
+    text-align: center;
+  }
+
+  @include mq() {
+    display: block;
+    font-size: $font-size_xxl;
+
+    &-item {
+      margin-right: initial;
+    }
+
+    &-link {
+      -webkit-font-smoothing: initial;
+      display: block;
+      padding: $space_l;
+      text-align: center;
+    }
+  }
+}
+
+.menu-trigger {
+  display: none;
+
+  @include mq() {
+    display: inline-block;
+  }
+
+  transition: all .4s;
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 32px;
+  z-index: 3;
+
+  span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $font-color_default;
+    border-radius: 4px;
+
+    &:nth-of-type(1) {
+      top: 0;
+    }
+
+    &:nth-of-type(2) {
+      top: 14px;
+    }
+
+    &:nth-of-type(3) {
+      bottom: 0;
+    }
+  }
+
+  &.active span {
+    &:nth-of-type(1) {
+      transform: translateY(12px) rotate(-45deg);
+    }
+
+    &:nth-of-type(2) {
+      opacity: 0;
+    }
+
+    &:nth-of-type(3) {
+      transform: translateY(-15px) rotate(45deg);
+    }
+  }
+}
+
+//ヘッダー関係終わり
+
+//ページタイトル関係
+
+.page-title {
+  margin-bottom: 50px;
+  padding-top: 70px;
+  text-align: center;
+  font-size: 32px;
+}
+
+//フッター関係
+
+.footer {
+  background: #555;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+  width: 100%;
+  justify-content: center;
+  height: 80px;
+
+  @include mq() {
+    font-size: $font-size_s;
+  }
+}
+
+//フッター関係終わり
+
+//レイアウト関係
+
+.site-width {
+  margin: 0 auto;
+}
+
+#main {
+  float: left;
+  min-height: 600px;
+}
+
+.page-1colum #main {
+  width: 100%;
+}
+
+.page-2colum #main {
+  width: 760px;
+
+  @include mq() {
+    width: 100%;
+  }
+}
+
+.page-logined #main {
+  box-sizing: border-box;
+  border: 5px solid #f1f1f1;
+}
+
+section h1.title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contents {
+  overflow: hidden;
+  margin-top: 120px;
+
+  &-fluid {
+    width: 100%;
+  }
+
+  &-body {
+    @include mq() {
+      padding: 0px $space_l;
+
+    }
+  }
+}
+
+
+//検索エリア関係
+
+.search-title {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  height: 40px;
+  background: #f6f5f4;
+  line-height: 40px;
+}
+
+.search-left {
+  float: left;
+}
+
+.search-right {
+  float: right;
+}
+
+.search-title .total-num {
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+//リスト
+.list > .title {
+  padding-left: 10px;
+  border-left: 6px solid #b6a489;
+}
+
+.panel-list {
+  overflow: hidden;
+  margin-right: -15px;
+}
+
+.panel-list > .panel {
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  min-height: 185px;
+  width: 25%;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.2em;
+
+  @include mq() {
+    margin-bottom: -80px;
+  }
+}
+
+a.panel:hover {
+  text-decoration: underline;
+}
+
+.panel-list > .panel img {
+  width: 100%;
+}
+
+.panel-list > .panel .panel-title {
+  margin: 0;
+}
+
+.panel {
+  margin-bottom: -80px;
+}
+
+//サイドバー
+
+#sidebar {
+  float: left;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 200px;
+  padding: 15px;
+  min-height: 600px;
+  width: 200px;
+  background: #f6f5f4;
+
+  @include mq() {
+    min-height: 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+#sidebar .title {
+  text-align: left;
+  font-size: 14px;
+}
+
+#sidebar .selectbox {
+  position: relative;
+}
+
+#sidebar select {
+  padding: 10px;
+  width: 100%;
+  border-color: #ccc;
+  border-radius: 0;
+  font-size: 14px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#sidebar .icn_select:after {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #333;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 7px solid transparent;
+  content: "";
+}
+
+.page-logined #sidebar {
+  margin: 0 0 0 20px;
+}
+
+.page-logined #sidebar > a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form .prev-img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form .imgDrop-container {
+  width: 33.333%;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.panel-list > .panel img {
+  width: 100%;
+}
+
+section h1.title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+//その他
+
+html,
+body {
+  width: 100%;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+}
+
+p,
+a {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $font-color_default;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: $color_main;
+  transition: .3s;
+}

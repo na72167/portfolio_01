@@ -1,0 +1,333 @@
+@charset "UTF-8";
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  margin-top: -60px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  transition: .3s;
+  z-index: 2; }
+  .header.float-active {
+    transition: .3s;
+    background: rgba(255, 255, 255, 0.85); }
+  @media screen and (max-width: 414px) {
+    .header {
+      margin-top: -100px;
+      height: 60px;
+      padding-right: 15px;
+      padding-left: 15px; } }
+  .header .title {
+    font-size: 30px;
+    font-weight: bold; }
+
+@media screen and (max-width: 414px) {
+  .nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    margin-top: -25px;
+    transition: .5s; }
+    .nav-menu.active {
+      transition: .5s;
+      transform: translateX(-100%);
+      z-index: 2; } }
+
+.menu {
+  display: flex;
+  align-items: center;
+  font-size: 24px; }
+  .menu-item {
+    margin-right: 20px; }
+  .menu-link {
+    -webkit-font-smoothing: initial; }
+  .menu-item {
+    margin-right: initial; }
+  .menu-link {
+    -webkit-font-smoothing: initial;
+    display: block;
+    padding: 15px;
+    text-align: center; }
+  @media screen and (max-width: 414px) {
+    .menu {
+      display: block;
+      font-size: 30px; }
+      .menu-item {
+        margin-right: initial; }
+      .menu-link {
+        -webkit-font-smoothing: initial;
+        display: block;
+        padding: 15px;
+        text-align: center; } }
+
+.menu-trigger {
+  display: none;
+  transition: all .4s;
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 32px;
+  z-index: 3; }
+  @media screen and (max-width: 414px) {
+    .menu-trigger {
+      display: inline-block; } }
+  .menu-trigger span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #777;
+    border-radius: 4px; }
+    .menu-trigger span:nth-of-type(1) {
+      top: 0; }
+    .menu-trigger span:nth-of-type(2) {
+      top: 14px; }
+    .menu-trigger span:nth-of-type(3) {
+      bottom: 0; }
+  .menu-trigger.active span:nth-of-type(1) {
+    transform: translateY(12px) rotate(-45deg); }
+  .menu-trigger.active span:nth-of-type(2) {
+    opacity: 0; }
+  .menu-trigger.active span:nth-of-type(3) {
+    transform: translateY(-15px) rotate(45deg); }
+
+.badge {
+  padding: 5px 10px;
+  color: white;
+  background: #7acee6;
+  margin-right: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+  position: relative;
+  top: -4px; }
+
+#main .title {
+  font-size: 28px;
+  padding: 10px 0; }
+  @media screen and (max-width: 414px) {
+    #main .title {
+      font-size: 12px; } }
+
+.product-img-container {
+  overflow: hidden; }
+
+.product-img-container img {
+  width: 100%; }
+
+.product-img-container .img-main {
+  width: 750px;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box; }
+  @media screen and (max-width: 414px) {
+    .product-img-container .img-main {
+      width: 250px;
+      font-size: 12px; } }
+
+.product-img-container .img-sub {
+  width: 230px;
+  float: left;
+  background: #f6f5f4;
+  padding-left: 15px;
+  box-sizing: border-box; }
+  @media screen and (max-width: 414px) {
+    .product-img-container .img-sub {
+      font-size: 12px;
+      width: 120px; } }
+
+.product-img-container .img-sub:hover {
+  cursor: pointer; }
+
+.product-img-container .img-sub img {
+  margin-bottom: 15px; }
+
+.product-img-container .img-sub img:last-child {
+  margin-bottom: 0; }
+
+.product-detail {
+  background: #f6f5f4;
+  padding: 15px;
+  margin-top: 15px;
+  min-height: 150px; }
+
+.product-buy {
+  overflow: hidden;
+  margin-top: 15px;
+  height: 50px;
+  line-height: 50px; }
+
+.product-buy .item-left {
+  float: left; }
+
+.product-buy .item-right {
+  float: right; }
+
+.product-buy .price {
+  font-size: 32px;
+  margin-right: 30px; }
+  @media screen and (max-width: 414px) {
+    .product-buy .price {
+      font-size: 12px; } }
+
+.product-buy .btn {
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px; }
+  @media screen and (max-width: 414px) {
+    .product-buy .btn {
+      font-size: 100%; } }
+
+.btn-primary {
+  background: #f6f5f4; }
+
+.product-buy .btn:hover {
+  cursor: pointer; }
+
+.site-width {
+  margin: 0 auto;
+  width: 980px; }
+
+#contents {
+  overflow: hidden;
+  margin: 60px auto 20px; }
+  @media screen and (max-width: 414px) {
+    #contents {
+      margin-top: 100px;
+      margin-bottom: 80px;
+      width: 100%;
+      font-size: 12px; } }
+
+#sidebar {
+  float: left;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 15px;
+  min-height: 600px;
+  width: 200px;
+  background: #f6f5f4; }
+
+#sidebar .title {
+  text-align: left;
+  font-size: 14px; }
+
+#sidebar .selectbox {
+  position: relative; }
+
+#sidebar select {
+  padding: 10px;
+  width: 100%;
+  border-color: #ccc;
+  border-radius: 0;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+#sidebar .icn_select:after {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #333;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 7px solid transparent; }
+
+.page-logined #sidebar {
+  margin: 0 0 0 20px; }
+
+.page-logined #sidebar > a {
+  display: block;
+  margin-bottom: 15px; }
+
+.footer {
+  background: #555;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px; }
+
+html,
+body {
+  width: 100%;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+p,
+a {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #777;
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  color: #e3a8b1;
+  transition: .3s; }
+
+.footer {
+  background: #555;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+  justify-content: center;
+  height: 80px; }
+  @media screen and (max-width: 414px) {
+    .footer {
+      font-size: 12px; } }
+
+@media screen and (max-width: 414px) {
+  .main-img-size {
+    height: 250px; } }
+
+.withdrawal {
+  margin: 193px auto; }
+
+.bgColor {
+  background: #f8f7fc;
+  box-shadow: 0px 0px 8px 2px #ddd inset; }
+
+html,
+body {
+  width: 100%;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+p,
+a {
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #777;
+  text-decoration: none;
+  transition: .3s; }
+
+a:hover {
+  color: #e3a8b1;
+  transition: .3s; }

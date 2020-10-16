@@ -1,0 +1,3825 @@
+[15-Dec-2019 06:37:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:37:38 UTC] デバッグ：「　連絡掲示板ページ　
+[15-Dec-2019 06:37:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:37:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:37:38 UTC] デバッグ：セッションID：eot4rgr2gqfhh68guhu0ckpa8v
+[15-Dec-2019 06:37:38 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576391727
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:37:38 UTC] デバッグ：現在日時タイムスタンプ：1576391858
+[15-Dec-2019 06:37:38 UTC] デバッグ：ログイン期限日時タイムスタンプ：1578983727
+[15-Dec-2019 06:37:38 UTC] デバッグ：msg情報を取得します。
+[15-Dec-2019 06:37:38 UTC] デバッグ：掲示板ID：12
+[15-Dec-2019 06:37:38 UTC] デバッグ：取得したDBデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 9
+            [product_id] => 3
+            [bord_id] => 12
+            [send_date] => 2019-12-15 06:32:34
+            [to_user] => 3
+            [from_user] => 4
+            [sale_user] => 3
+            [buy_user] => 4
+            [msg] => jksdljfkjds
+            [create_date] => 2019-12-15 06:32:29
+        )
+
+)
+
+[15-Dec-2019 06:37:38 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:37:38 UTC] デバッグ：商品ID：3
+[15-Dec-2019 06:37:38 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => システム開発・運用
+    [category_id] => 1
+    [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+    [price] => 22222
+    [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 3
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:37:38 UTC] デバッグ：取得した相手のユーザーID：3
+[15-Dec-2019 06:37:38 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:37:38 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:37:38 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:37:38 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:37:38 UTC] デバッグ：取得したユーザデータ：Array
+(
+    [id] => 3
+    [username] => テスト二郎
+    [age] => 25
+    [tel] => 09073427834
+    [zip] => 1234567
+    [pic] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [addr] => 北海道
+    [email] => test300@gmail.com
+    [password] => $2y$10$R6uP8Jf/W9vSzb5YSdZEj.1UpIYwXusjQ2MdLNA9UfBNXCY2sM6/u
+    [delete_flg] => 0
+    [login_time] => 2019-12-15 00:36:51
+    [create_date] => 2019-12-15 00:36:51
+    [update_date] => 2019-12-15 09:36:51
+)
+
+[15-Dec-2019 06:37:38 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:43:35 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:35 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:43:35 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:35 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:43:35 UTC] デバッグ：セッションID：jnki4ohdk6udg1iv8dtcs9i892
+[15-Dec-2019 06:43:35 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576391727
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:43:35 UTC] デバッグ：現在日時タイムスタンプ：1576392215
+[15-Dec-2019 06:43:35 UTC] デバッグ：ログイン期限日時タイムスタンプ：1578983727
+[15-Dec-2019 06:43:35 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:43:35 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:43:35 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:43:35 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:43:35 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:43:35 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:43:35 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:43:35 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:43:35 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:43:35 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:43:35 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:43:35 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:43:35 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:43:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:38 UTC] デバッグ：「　ログアウトページ　
+[15-Dec-2019 06:43:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:43:38 UTC] デバッグ：セッションID：7je6esd7tj1jh9pkdsaeij37v1
+[15-Dec-2019 06:43:38 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392215
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:43:38 UTC] デバッグ：現在日時タイムスタンプ：1576392218
+[15-Dec-2019 06:43:38 UTC] デバッグ：ログイン期限日時タイムスタンプ：1578984215
+[15-Dec-2019 06:43:38 UTC] デバッグ：ログアウトします。
+[15-Dec-2019 06:43:38 UTC] デバッグ：ログインページへ遷移します。
+[15-Dec-2019 06:43:38 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:43:38 UTC] デバッグ：ログインページ
+[15-Dec-2019 06:43:38 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:43:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:43:38 UTC] デバッグ：セッションID：qq3ggm32f5dhdn5aha4g1hc1lo
+[15-Dec-2019 06:43:38 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:43:38 UTC] デバッグ：現在日時タイムスタンプ：1576392218
+[15-Dec-2019 06:43:38 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:43:39 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:39 UTC] デバッグ：「　トップページ　
+[15-Dec-2019 06:43:39 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:43:39 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:43:39 UTC] デバッグ：セッションID：b8tm2223nm1m5nn9iecs748nof
+[15-Dec-2019 06:43:39 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:43:39 UTC] デバッグ：現在日時タイムスタンプ：1576392219
+[15-Dec-2019 06:45:02 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:45:02 UTC] デバッグ：ログインページ
+[15-Dec-2019 06:45:02 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:45:02 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:45:02 UTC] デバッグ：セッションID：h4m128mj72feh2sninflm8bf76
+[15-Dec-2019 06:45:02 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:45:02 UTC] デバッグ：現在日時タイムスタンプ：1576392302
+[15-Dec-2019 06:45:02 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:45:24 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:45:24 UTC] デバッグ：ログインページ
+[15-Dec-2019 06:45:24 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:45:24 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:45:24 UTC] デバッグ：セッションID：dj8v0hijckedecqo04ub4unff6
+[15-Dec-2019 06:45:24 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:45:24 UTC] デバッグ：現在日時タイムスタンプ：1576392324
+[15-Dec-2019 06:45:24 UTC] デバッグ：POST送信があります。
+[15-Dec-2019 06:45:24 UTC] デバッグ：バリデーションOK。
+[15-Dec-2019 06:45:24 UTC] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$aKWogJdP2izrnpS56OY0bebMDhW8T56CuX7KkBrAiGysrO1ttGpBu
+    [email] => test400@gmail.com
+    [id] => 4
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：パスワードがマッチしました。
+[15-Dec-2019 06:45:25 UTC] デバッグ：ログイン情報がありません。
+[15-Dec-2019 06:45:25 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392325
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：マイページへ移動します。
+[15-Dec-2019 06:45:25 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:45:25 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:45:25 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:45:25 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:45:25 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:45:25 UTC] デバッグ：セッションID：g2vp8hjtq5go9mdg5d51kq88b8
+[15-Dec-2019 06:45:25 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392325
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：現在日時タイムスタンプ：1576392325
+[15-Dec-2019 06:45:25 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576395925
+[15-Dec-2019 06:45:25 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:45:25 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:45:25 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:45:25 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:45:25 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:45:25 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:45:25 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:45:25 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:45:25 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:45:25 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:45:25 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:45:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:45:51 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:45:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:45:51 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:45:51 UTC] デバッグ：セッションID：ds968sbobeama92am3i7n5tj4n
+[15-Dec-2019 06:45:51 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392325
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:45:51 UTC] デバッグ：現在日時タイムスタンプ：1576392351
+[15-Dec-2019 06:45:51 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576395925
+[15-Dec-2019 06:45:51 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:45:51 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:45:51 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:45:51 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:45:51 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:45:51 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:45:51 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:45:51 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:45:51 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:45:51 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:45:51 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:45:51 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:45:51 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:46:06 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:46:06 UTC] デバッグ：「　案件詳細ページ　
+[15-Dec-2019 06:46:06 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:46:06 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:46:06 UTC] デバッグ：セッションID：kqqjk48ohmkk9t1hhvna1dm22t
+[15-Dec-2019 06:46:06 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392351
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:46:06 UTC] デバッグ：現在日時タイムスタンプ：1576392366
+[15-Dec-2019 06:46:06 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576395951
+[15-Dec-2019 06:46:06 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:46:06 UTC] デバッグ：商品ID：7
+[15-Dec-2019 06:46:06 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 2
+    [name] => Web制作・Webデザイン
+    [category_id] => 2
+    [comment] => a
+    [price] => 3333
+    [pic1] => 
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:46:06 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:46:06 UTC] デバッグ：お気に入り情報があるか確認します。
+[15-Dec-2019 06:46:06 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:46:06 UTC] デバッグ：商品ID：2
+[15-Dec-2019 06:46:06 UTC] デバッグ：特に気に入ってません
+[15-Dec-2019 06:46:23 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:46:23 UTC] デバッグ：ツールリストページ
+[15-Dec-2019 06:46:23 UTC] デバッグ：「「「「「「「「「「「「「
+[15-Dec-2019 06:46:23 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:46:23 UTC] デバッグ：セッションID：0ekp1j4im2k57eu8v16r886e8l
+[15-Dec-2019 06:46:23 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392351
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:46:23 UTC] デバッグ：現在日時タイムスタンプ：1576392383
+[15-Dec-2019 06:46:23 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576395951
+[15-Dec-2019 06:46:23 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:46:23 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:47:08 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:08 UTC] デバッグ：ツールリストページ
+[15-Dec-2019 06:47:08 UTC] デバッグ：「「「「「「「「「「「「「
+[15-Dec-2019 06:47:08 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:47:08 UTC] デバッグ：セッションID：jk54epu76sn2nmsm2rtstfaiur
+[15-Dec-2019 06:47:08 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392383
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:47:08 UTC] デバッグ：現在日時タイムスタンプ：1576392428
+[15-Dec-2019 06:47:08 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576395983
+[15-Dec-2019 06:47:08 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:47:08 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:47:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:28 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:47:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:28 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:47:28 UTC] デバッグ：セッションID：f2fgbak11t1n81gbvkaa6qjbdg
+[15-Dec-2019 06:47:28 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392428
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:47:28 UTC] デバッグ：現在日時タイムスタンプ：1576392448
+[15-Dec-2019 06:47:28 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396028
+[15-Dec-2019 06:47:28 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:47:28 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:47:28 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:47:28 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:47:28 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:47:28 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:47:28 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:47:28 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:47:28 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:47:28 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:47:28 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:47:28 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:47:28 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:47:31 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:31 UTC] デバッグ：「　トップページ　
+[15-Dec-2019 06:47:31 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:31 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:47:31 UTC] デバッグ：セッションID：sdb7dcecukmnf5d2c6dgigsnju
+[15-Dec-2019 06:47:31 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392448
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:47:31 UTC] デバッグ：現在日時タイムスタンプ：1576392451
+[15-Dec-2019 06:47:31 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396048
+[15-Dec-2019 06:47:31 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:47:31 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:47:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:41 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:47:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:47:41 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:47:41 UTC] デバッグ：セッションID：4fp2agirp3vne9o2671kpus6dp
+[15-Dec-2019 06:47:41 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392451
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:47:41 UTC] デバッグ：現在日時タイムスタンプ：1576392461
+[15-Dec-2019 06:47:41 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396051
+[15-Dec-2019 06:47:41 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:47:41 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:47:41 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:47:41 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:47:41 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:47:41 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:47:41 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:47:41 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:47:41 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:47:41 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:47:41 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:47:41 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:47:41 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:49:15 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:15 UTC] デバッグ：「　連絡掲示板ページ　
+[15-Dec-2019 06:49:15 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:15 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:49:15 UTC] デバッグ：セッションID：082jkil1dbuf47h06ebernal9l
+[15-Dec-2019 06:49:15 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392461
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:49:15 UTC] デバッグ：現在日時タイムスタンプ：1576392555
+[15-Dec-2019 06:49:15 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396061
+[15-Dec-2019 06:49:15 UTC] デバッグ：msg情報を取得します。
+[15-Dec-2019 06:49:15 UTC] デバッグ：掲示板ID：11
+[15-Dec-2019 06:49:15 UTC] デバッグ：取得したDBデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 8
+            [product_id] => 4
+            [bord_id] => 11
+            [send_date] => 2019-12-15 06:31:40
+            [to_user] => 4
+            [from_user] => 4
+            [sale_user] => 4
+            [buy_user] => 4
+            [msg] => dasjkljdajsdj
+            [create_date] => 2019-12-15 06:31:33
+        )
+
+)
+
+[15-Dec-2019 06:49:15 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:49:15 UTC] デバッグ：商品ID：4
+[15-Dec-2019 06:49:15 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => 翻訳・通訳サービス
+    [category_id] => 3
+    [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+    [price] => 42378947
+    [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:49:15 UTC] デバッグ：取得した相手のユーザーID：4
+[15-Dec-2019 06:49:15 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:49:15 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:49:15 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:49:15 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:49:15 UTC] デバッグ：取得したユーザデータ：Array
+(
+    [id] => 4
+    [username] => テスト太郎
+    [age] => 23
+    [tel] => 08033339999
+    [zip] => 3217897
+    [pic] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+    [addr] => 北海道
+    [email] => test400@gmail.com
+    [password] => $2y$10$aKWogJdP2izrnpS56OY0bebMDhW8T56CuX7KkBrAiGysrO1ttGpBu
+    [delete_flg] => 0
+    [login_time] => 2019-12-15 00:38:29
+    [create_date] => 2019-12-15 00:38:29
+    [update_date] => 2019-12-15 09:38:29
+)
+
+[15-Dec-2019 06:49:15 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:49:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:38 UTC] デバッグ：「　ログアウトページ　
+[15-Dec-2019 06:49:38 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:49:38 UTC] デバッグ：セッションID：vehnqqv5p1jv8sh2427n51ov8b
+[15-Dec-2019 06:49:38 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392461
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:49:38 UTC] デバッグ：現在日時タイムスタンプ：1576392578
+[15-Dec-2019 06:49:38 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396061
+[15-Dec-2019 06:49:38 UTC] デバッグ：ログアウトします。
+[15-Dec-2019 06:49:38 UTC] デバッグ：ログインページへ遷移します。
+[15-Dec-2019 06:49:38 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:49:38 UTC] デバッグ：ログインページ
+[15-Dec-2019 06:49:38 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:49:38 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:49:38 UTC] デバッグ：セッションID：fk3th4h307dmrdau7mmgk3dn5f
+[15-Dec-2019 06:49:38 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:49:38 UTC] デバッグ：現在日時タイムスタンプ：1576392578
+[15-Dec-2019 06:49:38 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:49:39 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:49:39 UTC] デバッグ：ログインページ
+[15-Dec-2019 06:49:39 UTC] デバッグ：「「「「「
+[15-Dec-2019 06:49:39 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:49:39 UTC] デバッグ：セッションID：4cinbdekumqdeglcmipaafq2kd
+[15-Dec-2019 06:49:39 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[15-Dec-2019 06:49:39 UTC] デバッグ：現在日時タイムスタンプ：1576392579
+[15-Dec-2019 06:49:39 UTC] デバッグ：POST送信があります。
+[15-Dec-2019 06:49:39 UTC] デバッグ：バリデーションOK。
+[15-Dec-2019 06:49:39 UTC] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$aKWogJdP2izrnpS56OY0bebMDhW8T56CuX7KkBrAiGysrO1ttGpBu
+    [email] => test400@gmail.com
+    [id] => 4
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：パスワードがマッチしました。
+[15-Dec-2019 06:49:40 UTC] デバッグ：ログイン情報がありません。
+[15-Dec-2019 06:49:40 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392580
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：マイページへ移動します。
+[15-Dec-2019 06:49:40 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:49:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:40 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:49:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:49:40 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:49:40 UTC] デバッグ：セッションID：iliekbhcis7ehb83crrn1653kd
+[15-Dec-2019 06:49:40 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392580
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：現在日時タイムスタンプ：1576392580
+[15-Dec-2019 06:49:40 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396180
+[15-Dec-2019 06:49:40 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:49:40 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:49:40 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:49:40 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:49:40 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:49:40 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:49:40 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:49:40 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:49:40 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:49:40 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:49:40 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:50:12 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:12 UTC] デバッグ：「　連絡掲示板ページ　
+[15-Dec-2019 06:50:12 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:12 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:50:12 UTC] デバッグ：セッションID：fa9vbqa24flkjd70h1io9vmd8a
+[15-Dec-2019 06:50:12 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392580
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:50:12 UTC] デバッグ：現在日時タイムスタンプ：1576392612
+[15-Dec-2019 06:50:12 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396180
+[15-Dec-2019 06:50:12 UTC] デバッグ：msg情報を取得します。
+[15-Dec-2019 06:50:12 UTC] デバッグ：掲示板ID：10
+[15-Dec-2019 06:50:12 UTC] デバッグ：取得したDBデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 5
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:44
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasjdklaslkdjasjdl
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:53
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasdljaskjdlkaskd
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [2] => Array
+        (
+            [m_id] => 7
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:58
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => dlksajdkljal
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+)
+
+[15-Dec-2019 06:50:12 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:50:12 UTC] デバッグ：商品ID：5
+[15-Dec-2019 06:50:12 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => システム開発・運用
+    [category_id] => 1
+    [comment] => a
+    [price] => 1
+    [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:50:12 UTC] デバッグ：取得した相手のユーザーID：3
+[15-Dec-2019 06:50:12 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:12 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:12 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:12 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:12 UTC] デバッグ：取得したユーザデータ：Array
+(
+    [id] => 3
+    [username] => テスト二郎
+    [age] => 25
+    [tel] => 09073427834
+    [zip] => 1234567
+    [pic] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [addr] => 北海道
+    [email] => test300@gmail.com
+    [password] => $2y$10$R6uP8Jf/W9vSzb5YSdZEj.1UpIYwXusjQ2MdLNA9UfBNXCY2sM6/u
+    [delete_flg] => 0
+    [login_time] => 2019-12-15 00:36:51
+    [create_date] => 2019-12-15 00:36:51
+    [update_date] => 2019-12-15 09:36:51
+)
+
+[15-Dec-2019 06:50:12 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:50:18 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:18 UTC] デバッグ：「　連絡掲示板ページ　
+[15-Dec-2019 06:50:18 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:18 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:50:18 UTC] デバッグ：セッションID：83e2cv4na93o9h4859o88t6okv
+[15-Dec-2019 06:50:18 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392580
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:50:18 UTC] デバッグ：現在日時タイムスタンプ：1576392618
+[15-Dec-2019 06:50:18 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396180
+[15-Dec-2019 06:50:18 UTC] デバッグ：msg情報を取得します。
+[15-Dec-2019 06:50:18 UTC] デバッグ：掲示板ID：10
+[15-Dec-2019 06:50:18 UTC] デバッグ：取得したDBデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 5
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:44
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasjdklaslkdjasjdl
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:53
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasdljaskjdlkaskd
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [2] => Array
+        (
+            [m_id] => 7
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:58
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => dlksajdkljal
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+)
+
+[15-Dec-2019 06:50:18 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:50:18 UTC] デバッグ：商品ID：5
+[15-Dec-2019 06:50:18 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => システム開発・運用
+    [category_id] => 1
+    [comment] => a
+    [price] => 1
+    [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:50:18 UTC] デバッグ：取得した相手のユーザーID：3
+[15-Dec-2019 06:50:18 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:18 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:18 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:18 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:18 UTC] デバッグ：取得したユーザデータ：Array
+(
+    [id] => 3
+    [username] => テスト二郎
+    [age] => 25
+    [tel] => 09073427834
+    [zip] => 1234567
+    [pic] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [addr] => 北海道
+    [email] => test300@gmail.com
+    [password] => $2y$10$R6uP8Jf/W9vSzb5YSdZEj.1UpIYwXusjQ2MdLNA9UfBNXCY2sM6/u
+    [delete_flg] => 0
+    [login_time] => 2019-12-15 00:36:51
+    [create_date] => 2019-12-15 00:36:51
+    [update_date] => 2019-12-15 09:36:51
+)
+
+[15-Dec-2019 06:50:18 UTC] デバッグ：POST送信があります。
+[15-Dec-2019 06:50:18 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:50:18 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:50:18 UTC] デバッグ：バリデーションOKです。
+[15-Dec-2019 06:50:18 UTC] デバッグ：連絡掲示板へ遷移します。
+[15-Dec-2019 06:50:18 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:50:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:19 UTC] デバッグ：「　連絡掲示板ページ　
+[15-Dec-2019 06:50:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:19 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:50:19 UTC] デバッグ：セッションID：2nth0hm5vbfo82dr63or86jk1a
+[15-Dec-2019 06:50:19 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392618
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:50:19 UTC] デバッグ：現在日時タイムスタンプ：1576392619
+[15-Dec-2019 06:50:19 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396218
+[15-Dec-2019 06:50:19 UTC] デバッグ：msg情報を取得します。
+[15-Dec-2019 06:50:19 UTC] デバッグ：掲示板ID：10
+[15-Dec-2019 06:50:19 UTC] デバッグ：取得したDBデータ：Array
+(
+    [0] => Array
+        (
+            [m_id] => 5
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:44
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasjdklaslkdjasjdl
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [1] => Array
+        (
+            [m_id] => 6
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:53
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jasdljaskjdlkaskd
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [2] => Array
+        (
+            [m_id] => 7
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 05:28:58
+            [to_user] => 4
+            [from_user] => 3
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => dlksajdkljal
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+    [3] => Array
+        (
+            [m_id] => 10
+            [product_id] => 5
+            [bord_id] => 10
+            [send_date] => 2019-12-15 06:50:18
+            [to_user] => 3
+            [from_user] => 4
+            [sale_user] => 4
+            [buy_user] => 3
+            [msg] => jdsaijso
+            [create_date] => 2019-12-15 05:28:39
+        )
+
+)
+
+[15-Dec-2019 06:50:19 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:50:19 UTC] デバッグ：商品ID：5
+[15-Dec-2019 06:50:19 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => システム開発・運用
+    [category_id] => 1
+    [comment] => a
+    [price] => 1
+    [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:50:19 UTC] デバッグ：取得した相手のユーザーID：3
+[15-Dec-2019 06:50:19 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:19 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:19 UTC] デバッグ：ユーザー情報を取得します。
+[15-Dec-2019 06:50:19 UTC] デバッグ：クエリ成功。
+[15-Dec-2019 06:50:19 UTC] デバッグ：取得したユーザデータ：Array
+(
+    [id] => 3
+    [username] => テスト二郎
+    [age] => 25
+    [tel] => 09073427834
+    [zip] => 1234567
+    [pic] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [addr] => 北海道
+    [email] => test300@gmail.com
+    [password] => $2y$10$R6uP8Jf/W9vSzb5YSdZEj.1UpIYwXusjQ2MdLNA9UfBNXCY2sM6/u
+    [delete_flg] => 0
+    [login_time] => 2019-12-15 00:36:51
+    [create_date] => 2019-12-15 00:36:51
+    [update_date] => 2019-12-15 09:36:51
+)
+
+[15-Dec-2019 06:50:19 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:50:35 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:35 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:50:35 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:50:35 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:50:35 UTC] デバッグ：セッションID：rihojg5a5v9vef7a1ln6eq4d6n
+[15-Dec-2019 06:50:35 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392618
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:50:35 UTC] デバッグ：現在日時タイムスタンプ：1576392635
+[15-Dec-2019 06:50:35 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396218
+[15-Dec-2019 06:50:35 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:50:35 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:50:35 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:50:35 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:50:35 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:50:35 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:50:35 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:50:35 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+)
+
+[15-Dec-2019 06:50:35 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 06:50:18
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => jdsaijso
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:50:18
+                            [update_date] => 2019-12-15 15:50:18
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:50:35 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:50:35 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:50:35 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:50:35 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:51:42 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:51:42 UTC] デバッグ：ツールリストページ
+[15-Dec-2019 06:51:42 UTC] デバッグ：「「「「「「「「「「「「「
+[15-Dec-2019 06:51:42 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:51:42 UTC] デバッグ：セッションID：aao8005al1979476kl9ob6sjdo
+[15-Dec-2019 06:51:42 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392635
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:51:42 UTC] デバッグ：現在日時タイムスタンプ：1576392702
+[15-Dec-2019 06:51:42 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396235
+[15-Dec-2019 06:51:42 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:51:42 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:51:55 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:51:55 UTC] デバッグ：「　案件登録・編集ページ　
+[15-Dec-2019 06:51:55 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:51:55 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:51:55 UTC] デバッグ：セッションID：3cg34k2hqlp2ic8tsr75dq3n03
+[15-Dec-2019 06:51:55 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392702
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:51:55 UTC] デバッグ：現在日時タイムスタンプ：1576392715
+[15-Dec-2019 06:51:55 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396302
+[15-Dec-2019 06:51:55 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:51:55 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:51:55 UTC] デバッグ：カテゴリー情報を取得します。
+[15-Dec-2019 06:51:55 UTC] デバッグ：商品ID：
+[15-Dec-2019 06:51:55 UTC] デバッグ：フォーム用DBデータ：
+[15-Dec-2019 06:51:55 UTC] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => システム開発・運用
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Web制作・Webデザイン
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 翻訳・通訳サービス
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => デザイン制作
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => ライティング・ネーミング
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => 営業・マーケティング・企画・広報
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => 写真・動画・ナレーション
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => 事務・コンサル・専門職
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => タスク・作業
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => その他
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+)
+
+[15-Dec-2019 06:51:55 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:52:16 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:52:16 UTC] デバッグ：「　案件登録・編集ページ　
+[15-Dec-2019 06:52:16 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:52:16 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:52:16 UTC] デバッグ：セッションID：700l38784cr0gu5k0qoag155sq
+[15-Dec-2019 06:52:16 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392715
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：現在日時タイムスタンプ：1576392736
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396315
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:52:16 UTC] デバッグ：カテゴリー情報を取得します。
+[15-Dec-2019 06:52:16 UTC] デバッグ：商品ID：
+[15-Dec-2019 06:52:16 UTC] デバッグ：フォーム用DBデータ：
+[15-Dec-2019 06:52:16 UTC] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => システム開発・運用
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Web制作・Webデザイン
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 翻訳・通訳サービス
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => デザイン制作
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => ライティング・ネーミング
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => 営業・マーケティング・企画・広報
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [name] => 写真・動画・ナレーション
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [name] => 事務・コンサル・専門職
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [name] => タスク・作業
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [name] => その他
+            [delete_flg] => 0
+            [create_date] => 
+            [update_date] => 
+        )
+
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：POST送信があります。
+[15-Dec-2019 06:52:16 UTC] デバッグ：POST情報：Array
+(
+    [name] => test
+    [category_id] => 3
+    [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+    [price] => 32423
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => スクリーンショット 2019-12-14 16.25.40.png
+            [type] => image/png
+            [tmp_name] => /Applications/MAMP/tmp/php/phpcCbchq
+            [error] => 0
+            [size] => 276555
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：画像アップロード処理開始
+[15-Dec-2019 06:52:16 UTC] デバッグ：ファイル情報：Array
+(
+    [name] => スクリーンショット 2019-12-14 16.25.40.png
+    [type] => image/png
+    [tmp_name] => /Applications/MAMP/tmp/php/phpcCbchq
+    [error] => 0
+    [size] => 276555
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：ファイルは正常にアップロードされました
+[15-Dec-2019 06:52:16 UTC] デバッグ：ファイルパス：uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+[15-Dec-2019 06:52:16 UTC] デバッグ：バリデーションOKです。
+[15-Dec-2019 06:52:16 UTC] デバッグ：DB新規登録です。
+[15-Dec-2019 06:52:16 UTC] デバッグ：SQL：insert into products(name,user_id, category_id, price,comment, pic1, pic2, pic3,create_date ) values (:name, :u_id,:category,:price,:comment,:pic1, :pic2,:pic3,:date)
+[15-Dec-2019 06:52:16 UTC] デバッグ：流し込みデータ：Array
+(
+    [:name] => test
+    [:u_id] => 4
+    [:category] => 3
+    [:price] => 32423
+    [:comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+    [:pic1] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [:pic2] => 
+    [:pic3] => 
+    [:date] => 2019-12-15 06:52:16
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：マイページへ遷移します。
+[15-Dec-2019 06:52:16 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:52:16 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:52:16 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:52:16 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:52:16 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:52:16 UTC] デバッグ：セッションID：hp3rqs6jf7r0hjatugjnsggpv9
+[15-Dec-2019 06:52:16 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392736
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 登録しました
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：現在日時タイムスタンプ：1576392736
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396336
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:52:16 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:52:16 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:52:16 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:52:16 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:52:16 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:52:16 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:52:16 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+    [5] => Array
+        (
+            [id] => 11
+            [name] => test
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 32423
+            [pic1] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 06:52:16
+            [update_date] => 2019-12-15 15:52:16
+        )
+
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 06:50:18
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => jdsaijso
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:50:18
+                            [update_date] => 2019-12-15 15:50:18
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:52:16 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:52:16 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:52:16 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:53:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:53:19 UTC] デバッグ：「　案件詳細ページ　
+[15-Dec-2019 06:53:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:53:19 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:53:19 UTC] デバッグ：セッションID：hd0m6a0l8c93kd5fli1nhgmuku
+[15-Dec-2019 06:53:19 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392736
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:53:19 UTC] デバッグ：現在日時タイムスタンプ：1576392799
+[15-Dec-2019 06:53:19 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396336
+[15-Dec-2019 06:53:19 UTC] デバッグ：商品情報を取得します。
+[15-Dec-2019 06:53:19 UTC] デバッグ：商品ID：11
+[15-Dec-2019 06:53:19 UTC] デバッグ：取得したDBデータ：Array
+(
+    [id] => 3
+    [name] => 翻訳・通訳サービス
+    [category_id] => 3
+    [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+    [price] => 32423
+    [pic1] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 4
+    [delete_flg] => 0
+    [create_date] => 
+    [update_date] => 
+)
+
+[15-Dec-2019 06:53:19 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:53:19 UTC] デバッグ：お気に入り情報があるか確認します。
+[15-Dec-2019 06:53:19 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:53:19 UTC] デバッグ：商品ID：3
+[15-Dec-2019 06:53:19 UTC] デバッグ：特に気に入ってません
+[15-Dec-2019 06:53:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:53:28 UTC] デバッグ：「　マイページ　
+[15-Dec-2019 06:53:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:53:28 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:53:28 UTC] デバッグ：セッションID：3djac8n8ukdq34npgr1leqats7
+[15-Dec-2019 06:53:28 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392736
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:53:28 UTC] デバッグ：現在日時タイムスタンプ：1576392808
+[15-Dec-2019 06:53:28 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396336
+[15-Dec-2019 06:53:28 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:53:28 UTC] デバッグ：ログイン有効期限以内です。
+[15-Dec-2019 06:53:28 UTC] デバッグ：自分の商品情報を取得します。
+[15-Dec-2019 06:53:28 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:53:28 UTC] デバッグ：自分のmsg情報を取得します。
+[15-Dec-2019 06:53:28 UTC] デバッグ：自分のお気に入り情報を取得します。
+[15-Dec-2019 06:53:28 UTC] デバッグ：ユーザーID：4
+[15-Dec-2019 06:53:28 UTC] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+        )
+
+    [1] => Array
+        (
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+        )
+
+    [2] => Array
+        (
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+        )
+
+    [3] => Array
+        (
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+        )
+
+    [4] => Array
+        (
+            [id] => 8
+            [name] => test
+            [category_id] => 2
+            [comment] => 
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:56
+            [update_date] => 2019-12-15 12:14:56
+        )
+
+    [5] => Array
+        (
+            [id] => 11
+            [name] => test
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 32423
+            [pic1] => uploads/ca113526d54f352b519bca211cebed8743aebbe4.png
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 06:52:16
+            [update_date] => 2019-12-15 15:52:16
+        )
+
+)
+
+[15-Dec-2019 06:53:28 UTC] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 04:50:17
+            [update_date] => 2019-12-15 13:50:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [sale_user] => 4
+            [buy_user] => 3
+            [product_id] => 5
+            [delete_flg] => 
+            [create_date] => 2019-12-15 05:28:39
+            [update_date] => 2019-12-15 14:28:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 06:50:18
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => jdsaijso
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:50:18
+                            [update_date] => 2019-12-15 15:50:18
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:58
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => dlksajdkljal
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:58
+                            [update_date] => 2019-12-15 14:28:58
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:53
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasdljaskjdlkaskd
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:53
+                            [update_date] => 2019-12-15 14:28:53
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 10
+                            [send_date] => 2019-12-15 05:28:44
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => jasjdklaslkdjasjdl
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 05:28:44
+                            [update_date] => 2019-12-15 14:28:44
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [sale_user] => 4
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 
+            [create_date] => 2019-12-15 06:31:33
+            [update_date] => 2019-12-15 15:31:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 11
+                            [send_date] => 2019-12-15 06:31:40
+                            [to_user] => 4
+                            [from_user] => 4
+                            [msg] => dasjkljdajsdj
+                            [delete_flg] => 0
+                            [create_date] => 2019-12-15 06:31:40
+                            [update_date] => 2019-12-15 15:31:40
+                        )
+
+                )
+
+        )
+
+)
+
+[15-Dec-2019 06:53:28 UTC] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 3
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:03
+            [update_date] => 2019-12-15 09:38:03
+            [id] => 3
+            [name] => test
+            [category_id] => 1
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 22222
+            [pic1] => uploads/1bfa70b9929e284d5325a90c1188cd5cff310dd1.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [product_id] => 4
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 00:38:52
+            [update_date] => 2019-12-15 09:38:52
+            [id] => 4
+            [name] => test323
+            [category_id] => 3
+            [comment] => -----詳細テンプレート-----・案件名・職種・勤務地（都道府県名）・勤務地(最寄り駅など)・単価(税込)・案件内容■スキル： ■人数 ： ■性別 ： ■国籍 ： ■特記
+            [price] => 42378947
+            [pic1] => uploads/64bf121176848dfa79f970b4ae0fbe9b3840dc11.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [2] => Array
+        (
+            [product_id] => 6
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:58:05
+            [update_date] => 2019-12-15 11:58:05
+            [id] => 6
+            [name] => test
+            [category_id] => 5
+            [comment] => 1
+            [price] => 1
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [3] => Array
+        (
+            [product_id] => 7
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 03:14:45
+            [update_date] => 2019-12-15 12:14:45
+            [id] => 7
+            [name] => test
+            [category_id] => 2
+            [comment] => a
+            [price] => 3333
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [4] => Array
+        (
+            [product_id] => 5
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-12-15 02:53:33
+            [update_date] => 2019-12-15 11:53:33
+            [id] => 5
+            [name] => test
+            [category_id] => 1
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/e3025f92687fb92c84d5e319a2abc4aa7adcdf08.png
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[15-Dec-2019 06:53:28 UTC] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Dec-2019 06:53:28 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:53:28 UTC] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/portfolio/mypage.php on line 118
+[15-Dec-2019 06:54:00 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:54:00 UTC] デバッグ：「　トップページ　
+[15-Dec-2019 06:54:00 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[15-Dec-2019 06:54:00 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[15-Dec-2019 06:54:00 UTC] デバッグ：セッションID：dk8pl4kir54elcndl19kk6d4mp
+[15-Dec-2019 06:54:00 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576392808
+    [login_limit] => 3600
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[15-Dec-2019 06:54:00 UTC] デバッグ：現在日時タイムスタンプ：1576392840
+[15-Dec-2019 06:54:00 UTC] デバッグ：ログイン期限日時タイムスタンプ：1576396408
+[15-Dec-2019 06:54:00 UTC] デバッグ：ログイン済みユーザーです。
+[15-Dec-2019 06:54:00 UTC] デバッグ：ログイン有効期限以内です。

@@ -1,0 +1,49 @@
+{
+  "name": "html_advance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"yarn run build-css\"",
+ 
+    "build-registcase-css": "node-sass --include-path scss scss/style-registcase.scss css/style-registcase.css",
+    "watch-registcase-css": "nodemon -e scss -x \"yarn run build-registcase-css\"" ,   
+    
+    "build-signup-css": "node-sass --include-path scss scss/style-signup.scss css/style-signup.css",
+    "watch-signup-css": "nodemon -e scss -x \"yarn run build-signup-css\"" ,   
+    
+   "build-login-css": "node-sass --include-path scss scss/style-login.scss css/style-login.css",
+    "watch-login-css": "nodemon -e scss -x \"yarn run build-login-css\"" ,   
+    
+    "build-casedetail-css": "node-sass --include-path scss scss/style-casedetail.scss css/style-casedetail.css",
+    "watch-casedetail-css": "nodemon -e scss -x \"yarn run build-casedetail-css\""  ,
+    
+    "build-withdrawal-css": "node-sass --include-path scss scss/style-withdrawal.scss css/style-withdrawal.css",
+    "watch-withdrawal-css": "nodemon -e scss -x \"yarn run build-withdrawal-css\""  ,
+        
+    "build-mypage-css": "node-sass --include-path scss scss/style-mypage.scss css/style-mypage.css",
+    "watch-mypage-css": "nodemon -e scss -x \"yarn run build-mypage-css\""  ,
+    
+    "build-profedit-css": "node-sass --include-path scss scss/style-profedit.scss css/style-profedit.css",
+    "watch-profedit-css": "nodemon -e scss -x \"yarn run build-profedit-css\""  ,
+
+    "build-caselist-css": "node-sass --include-path scss scss/style-caselist.scss css/style-caselist.css",
+    "watch-caselist-css": "nodemon -e scss -x \"yarn run build-caselist-css\"",
+     
+    "build-passedit-css": "node-sass --include-path scss scss/style-passEdit.scss css/style-passEdit.css",
+    "watch-passedit-css": "nodemon -e scss -x \"yarn run build-passedit-css\"" ,
+    
+      "build-msg-css": "node-sass --include-path scss scss/style-msg.scss css/style-msg.css",
+    "watch-msg-css": "nodemon -e scss -x \"yarn run build-msg-css\"" ,
+        
+    "build-toollist-css": "node-sass --include-path scss scss/style-toollist.scss css/style-toollist.css",
+    "watch-toollist-css": "nodemon -e scss -x \"yarn run build-toollist-css\""  
+     }, 
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.4"
+  }
+}
